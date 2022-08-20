@@ -20,7 +20,7 @@ html {
   padding: 30px;
   max-width: 420px;
   color: rgba(255, 255, 255, 0.88);
-  background: rgba(57, 50, 50, 0.882);
+  background: rgba(57, 50, 50, 0.924);
   box-shadow: 0.5rem 0.5rem 0.5rem 10px rgba(0, 0, 0, 0.252);
   border-radius: 10px;
 }
@@ -58,10 +58,6 @@ h2 {
 .items-list input + label:before {
   content: "⬜️";
   margin-right: 10px;
-}
-
-.items-list input:checked + label:before {
-  content: url("images/check.png");
 }
 
 .add-items {
